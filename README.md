@@ -53,11 +53,3 @@ pipeline, parsing, and example workflows.
 Custom AI Engine for research and experimentation in video-based learning.
 
 ```
-
----
-
-이 상태로 **README.md**에 붙여넣으면 바로 웹에서 깔끔하게 보이고,  
-`About`과 **보안 주석**까지 자연스럽게 포함돼.  
-
-원하면 내가 **스크린샷/예시 그림 포함 버전**까지 만들어서 더 시각적으로 깔끔하게 해줄 수도 있음.
-```
