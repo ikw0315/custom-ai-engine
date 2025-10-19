@@ -1,13 +1,63 @@
-# Custom AI Engine v2
+````markdown
+# Custom AI Engine
 
-Custom AI Engine v2 is a cutting-edge video learning AI system designed to process massive amounts of video data with unprecedented speed and scale. Powered by a custom engine capable of controlling up to 480 quintillion functions, each using pattern-based variable assignments, this AI performs comprehensive multi-modal analysis, including visual, textual, and behavioral data. It automatically extracts core actions, tracks repetitions, evaluates frequency, and utilizes titles, subtitles, and captions to enhance understanding. All learning results and statistics are archived for future analysis and re-training, while an autonomous pipeline allows adaptive learning and testing with minimal human intervention. Designed for scalability and precision, Custom AI Engine v2 represents the next step in advanced AI-driven video understanding.
+Custom AI Engine for rapid video analysis and learning.  
+Focuses on parsing, behavior detection, and text/visual analysis,  
+while sensitive datasets and learning mechanisms remain private.
 
-Key features include processing thousands of videos simultaneously, recognizing main activities, logging all results for future reference, and interpreting textual context such as titles and captions to improve comprehension. Installation is straightforward: clone the repository, navigate to the project folder, and install required dependencies using `pip install -r requirements.txt`. Usage is simple, with the core AIEngine class allowing video learning and behavioral analysis in just a few lines of code.
+## Getting Started
+Clone this repository to get your own copy:
 
-Contributors are welcome to fork the repository, create a new branch for their feature or bug fix, and submit a pull request. All contributions are reviewed before integration. Licensing information should be specified, such as MIT or Apache 2.0, to clarify usage and distribution permissions. Overall, Custom AI Engine v2 combines advanced AI functionality with ease of use and collaborative development, making it an ideal platform for large-scale video analysis projects.
+```bash
+git clone https://github.com/username/custom-ai-engine.git
+cd custom-ai-engine
+pip install -r requirements.txt
+````
 
-> ⚠️ Note on Security:
-> Due to security and confidentiality reasons, certain parts of the AI learning engine
-> and dataset are not publicly accessible. The provided code focuses on the 
-> pipeline, parsing, and example workflows, allowing you to understand the structure 
-> and usage without exposing sensitive data.
+### Run the Dummy Pipeline
+
+```bash
+python scripts/run_pipeline_dummy.py
+```
+
+This simulates the full video parsing and AI analysis workflow. Results are saved automatically to `engine_state.json`.
+
+## Local Development
+
+* `src/` contains core classes: `VideoParser`, `Engine`, and `PipelineManager`
+* `scripts/` contains example scripts to run the pipeline
+* `data/` can be used to store test videos (not included for security)
+
+## Testing
+
+Run the dummy pipeline locally to check functionality:
+
+```bash
+python scripts/run_pipeline_dummy.py
+```
+
+## Code Structure
+
+* **VideoParser**: reads videos, extracts frames, and preps them for analysis
+* **Engine**: handles AI analysis, learning, and state management
+* **PipelineManager**: automates full workflow with minimal human intervention
+
+## Security Note
+
+⚠️ Due to security and confidentiality reasons, certain parts of the AI learning engine
+and dataset are not publicly accessible. The provided code focuses on the
+pipeline, parsing, and example workflows.
+
+## About
+
+Custom AI Engine for research and experimentation in video-based learning.
+
+```
+
+---
+
+이 상태로 **README.md**에 붙여넣으면 바로 웹에서 깔끔하게 보이고,  
+`About`과 **보안 주석**까지 자연스럽게 포함돼.  
+
+원하면 내가 **스크린샷/예시 그림 포함 버전**까지 만들어서 더 시각적으로 깔끔하게 해줄 수도 있음.
+```
