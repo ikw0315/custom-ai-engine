@@ -12,13 +12,11 @@ Clone this repository to get your own copy:
 git clone https://github.com/username/custom-ai-engine.git
 cd custom-ai-engine
 pip install -r requirements.txt
-````
 
 ### Run the Dummy Pipeline
 
 ```bash
 python scripts/run_pipeline_dummy.py
-```
 
 This simulates the full video parsing and AI analysis workflow. Results are saved automatically to `engine_state.json`.
 
